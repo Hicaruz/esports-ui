@@ -7,7 +7,7 @@ import supSplash from "./assets/sup_splash_placeholder.svg";
 
 const pickSplashes = [topSplash, jungSplash, midSplash, botSplash, supSplash];
 
-const makeUrlAbsolute = (url, backendUrl) => {
+const makeUrlAbsolute = (url, backendUrl = "ws://localhost:8999") => {
   if (!url || !url.startsWith('/cache')) {
     return url;
   }
@@ -18,7 +18,7 @@ const makeUrlAbsolute = (url, backendUrl) => {
   return components[0] + '//' + components[2] + url;
 };
 
-const putPlaceholders = (team, backendUrl) => {
+const putPlaceholders = (team, backendUrl = "ws://localhost:8999") => {
   for (let i = 0; i < 5; i++) {
     // Picks
     // Check if exists

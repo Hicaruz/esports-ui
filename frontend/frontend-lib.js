@@ -60,7 +60,7 @@ const PB = {};
 eventify(PB);
 
 
-PB.toAbsoluteUrl = (convertUrl, baseUrl) => {
+PB.toAbsoluteUrl = (convertUrl, baseUrl = "ws://localhost:8999") => {
     baseUrl = baseUrl || getQueryVariable('backend');
 
     if (!convertUrl || !convertUrl.startsWith('/cache')) {
@@ -74,7 +74,7 @@ PB.toAbsoluteUrl = (convertUrl, baseUrl) => {
 };
 
 
-PB.start = function(url) {
+PB.start = function(url = "ws://localhost:8999") {
     this.backend = getQueryVariable('backend') || url;
 
     console.log('[PB] Connecting to ws backend on ' + this.backend);
