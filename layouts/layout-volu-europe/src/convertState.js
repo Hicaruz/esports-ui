@@ -18,7 +18,7 @@ const makeUrlAbsolute = (url, backendUrl) => {
   return components[0] + '//' + components[2] + url;
 };
 
-const putPlaceholders = (team,  backendUrl) => {
+const putPlaceholders = (team, backendUrl) => {
   for (let i = 0; i < 5; i++) {
     // Picks
     // Check if exists
@@ -72,7 +72,7 @@ const putPlaceholders = (team,  backendUrl) => {
   }
 };
 
-const convertState = (state, backendUrl) => {
+const convertState = (state, backendUrl = "ws://localhost:8999") => {
   if (Object.keys(state).length !== 0) {
     putPlaceholders(state.blueTeam, backendUrl);
     putPlaceholders(state.redTeam, backendUrl);

@@ -1,21 +1,21 @@
 {
   "frontend": {
     "scoreEnabled": true,
-    "spellsEnabled": true,
+    "spellsEnabled": false,
     "coachesEnabled": true,
     "blueTeam": {
-      "name": "Team Blue",
-      "score": 2,
-      "coach": "Coach Blue",
+      "name": "Aurelius Esports",
+      "score": 0,
+      "coach": "Levi",
       "color": "rgb(0,151,196)"
     },
     "redTeam": {
-      "name": "Team Red",
+      "name": "Mocinnos Gaming",
       "score": 1,
-      "coach": "Coach Red",
+      "coach": "Benja",
       "color": "rgb(222,40,70)"
     },
-    "patch": "9.19"
+    "patch": "10.15"
   },
   "contentPatch": "latest",
   "contentCdn": "https://ddragon.leagueoflegends.com/cdn"

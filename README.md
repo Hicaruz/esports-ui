@@ -1,4 +1,4 @@
-# lol-champselect-ui
+# esports-ui
 UI to display the league of legends champion selection in esports tournaments.
 
 ## Architecture:
@@ -86,10 +86,4 @@ alt="Demo Video" width="240" height="180" border="10" /></a>
 ## Creating your own design
 Please refer to [CUSTOM_THEME](CUSTOM_THEME.md).
 
-## Contributors / Maintainers
-- Development: Lars "Larce" Bärtschi
-- Design (Europe): Elias "Elilift" Inäbnit
 
-## Legal disclaimer
-lol-pick-ban-ui was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
-However, Riot was informed and has confirmed that this project is compliant with their ToS.

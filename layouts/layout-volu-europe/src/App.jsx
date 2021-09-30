@@ -6,22 +6,22 @@ function App() {
     const [globalState, setGlobalState] = useState({});
     const [config, setConfig] = useState({
         frontend: {
-            scoreEnabled: false,
+            scoreEnabled: true,
             spellsEnabled: true,
-            coachesEnabled: false,
+            coachesEnabled: true,
             blueTeam: {
-                name: "Team Blue",
+                name: "Aurelius",
                 score: 0,
-                coach: "",
+                coach: "Levi",
                 color: "rgb(0,151,196)"
             },
             redTeam: {
-                name: "Team Red",
+                name: "ABC",
                 score: 0,
-                coach: "",
+                coach: "Raspy",
                 color: "rgb(222,40,70)"
             },
-            patch: ""
+            patch: "17.5"
         }
     });
     useEffect(() => {
