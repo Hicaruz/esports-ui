@@ -5,15 +5,15 @@
     "coachesEnabled": true,
     "blueTeam": {
       "name": "Aurelius Esports",
-      "score": 0,
+      "score": 10,
       "coach": "Levi",
-      "color": "rgb(0,151,196)"
+      "color": "rgb(21,21,21)"
     },
     "redTeam": {
       "name": "Mocinnos Gaming",
-      "score": 1,
+      "score": 4,
       "coach": "Benja",
-      "color": "rgb(222,40,70)"
+      "color": "rgb(0,255,0)"
     },
     "patch": "10.15"
   },
