@@ -78,11 +78,6 @@ The above outlined error happens, if a connection to the League Client cannot be
 ### SyntaxError: failed to construct 'WebSocket': The URL 'undefined' is invalid
 This window may pop up when you start the europe layout. But there is nothing to worry, just close it and make sure you open up the correct link: http://localhost:3000?backend=ws://localhost:8999 (the ?backend part in the link is important, if you leave it out you get said error message!)
 
-## Demo (YouTube)
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=u-CTYFDBtqE
-" target="_blank"><img src="http://img.youtube.com/vi/u-CTYFDBtqE/0.jpg" 
-alt="Demo Video" width="240" height="180" border="10" /></a>
-
 ## Creating your own design
 Please refer to [CUSTOM_THEME](CUSTOM_THEME.md).
 
